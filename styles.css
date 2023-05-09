@@ -11,21 +11,7 @@ p {margin-bottom:2em;}
 
 @media screen and (min-width: 480px) {
 	h1 {
-		font-size: 30px; font-family: 'Courier New', Courier, monospace;  line-height: 1.3em; 
-	}
-
-    p {
-        font-size: 16px; line-height: 1.7em; 
-    }
-
-    a { font-size: 16px; line-height: 1.7em; color: #00bbff;background-color: transparent;text-decoration: underline;}
-
-
-}
-
-@media screen and (min-width: 481px) and (max-width: 600px) {
-	h1 {
-		font-size: 40px; font-family: 'Courier New', Courier, monospace;  line-height: 1.3em; 
+		font-size: 36px; font-family: 'Courier New', Courier, monospace;  line-height: 1.3em; 
 	}
 
     p {
@@ -37,17 +23,31 @@ p {margin-bottom:2em;}
 
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 481px) and (max-width: 600px) {
 	h1 {
 		font-size: 48px; font-family: 'Courier New', Courier, monospace;  line-height: 1.3em; 
 	}
 
-    p 
-    {
+    p {
         font-size: 24px; line-height: 1.7em; 
     }
 
     a { font-size: 24px; line-height: 1.7em; color: #00bbff;background-color: transparent;text-decoration: underline;}
+
+
+}
+
+@media screen and (min-width: 601px) {
+	h1 {
+		font-size: 60px; font-family: 'Courier New', Courier, monospace;  line-height: 1.3em; 
+	}
+
+    p 
+    {
+        font-size: 30px; line-height: 1.7em; 
+    }
+
+    a { font-size: 30px; line-height: 1.7em; color: #00bbff;background-color: transparent;text-decoration: underline;}
 
 
 }
